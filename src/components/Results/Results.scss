@@ -1,0 +1,27 @@
+.results-container {
+  margin: 20px 0;
+  
+  .header {
+    margin: 20px 0;
+  }
+
+  .repos {
+    font-size: 10px;
+  }
+
+  .card {
+    margin: 20px 0;
+  }
+
+  .details-container {
+    display: flex;
+
+    .date-time {
+      flex-grow: 1;
+    }
+
+    .count {
+      max-width: 200px;
+    }
+  }
+}
